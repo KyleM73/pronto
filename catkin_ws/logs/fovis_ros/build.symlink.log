@@ -1,0 +1,5 @@
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/libfovision.so
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/fovis_ros/simple_fusion
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/pkgconfig/fovis_ros.pc
+Symlinking /home/ooboontoo/catkin_ws/devel/share/fovis_ros/cmake/fovis_rosConfig-version.cmake
+Symlinking /home/ooboontoo/catkin_ws/devel/share/fovis_ros/cmake/fovis_rosConfig.cmake

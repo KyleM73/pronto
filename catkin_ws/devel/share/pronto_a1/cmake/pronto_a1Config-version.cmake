@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_a1/share/pronto_a1/cmake/pronto_a1Config-version.cmake

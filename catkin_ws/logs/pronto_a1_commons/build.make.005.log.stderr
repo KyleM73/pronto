@@ -1,0 +1,27 @@
+In file included from [01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:1:0[m[K:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/forward_kinematics.hpp:38:24:[m[K [01;31m[Kerror: [m[K‘[01m[KHomogeneousTransforms[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[KHomogeneousTransforms[m[K ht_;
+                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosLF(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:15:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kht_[m[K’ was not declared in this scope
+     return Utils::positionVector([01;31m[Kht_[m[K.fr_base_X_LF_FOOT(q));
+                                  [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosRF(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:19:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kht_[m[K’ was not declared in this scope
+     return Utils::positionVector([01;31m[Kht_[m[K.fr_base_X_RF_FOOT(q));
+                                  [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosLH(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:23:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kht_[m[K’ was not declared in this scope
+     return Utils::positionVector([01;31m[Kht_[m[K.fr_base_X_LH_FOOT(q));
+                                  [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosRH(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:27:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kht_[m[K’ was not declared in this scope
+     return Utils::positionVector([01;31m[Kht_[m[K.fr_base_X_RH_FOOT(q));
+                                  [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::Matrix3d pronto::a1::ForwardKinematics::getFootOrientation(const JointState&, const LegID&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:49:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kht_[m[K’ was not declared in this scope
+         return Utils::rotationMx([01;31m[Kht_[m[K.fr_base_X_LF_FOOT);
+                                  [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pronto_a1_commons.dir/src/forward_kinematics.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pronto_a1_commons.dir/all] Error 2
+make: *** [all] Error 2

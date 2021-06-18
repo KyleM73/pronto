@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped
+
+Name: pronto_quadruped
+Description: Description of pronto_quadruped
+Version: 0.2.0
+Cflags: -I/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/include -I/usr/include/eigen3 -I/usr/include
+Libs: -L${prefix}/lib -lpronto_quadruped /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: pronto_quadruped_commons pronto_utils

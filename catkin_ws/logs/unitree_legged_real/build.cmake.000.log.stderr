@@ -1,0 +1,22 @@
+[31m[1mCMake Error[0m at /home/ooboontoo/catkin_ws/src/unitree_ros/unitree_legged_real/CMakeLists.txt:56 (add_executable):
+  Cannot find source file:
+
+    /home/ooboontoo/aliengo_sdk/examples/lcm_server.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/ooboontoo/catkin_ws/src/unitree_ros/unitree_legged_real/CMakeLists.txt:52 (add_executable):
+  Cannot find source file:
+
+    /home/ooboontoo/unitree_legged_sdk/examples/lcm_server.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: lcm_server_3_1
+CMake Error: Cannot determine link language for target "lcm_server_3_1".
+CMake Error: CMake can not determine linker language for target: lcm_server_3_2
+CMake Error: Cannot determine link language for target "lcm_server_3_2".

@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/devel/.private/a1_robcogen
+
+Name: a1_robcogen
+Description: Description of a1_robcogen
+Version: 0.0.0
+Cflags: -I/home/ooboontoo/catkin_ws/src/a1_robcogen/include -I/home/ooboontoo/catkin_ws/src/a1_robcogen/include/a1_robcogen -I/usr/include/eigen3
+Libs: -L${prefix}/lib -la1_robcogen
+Requires: quadruped_robcogen

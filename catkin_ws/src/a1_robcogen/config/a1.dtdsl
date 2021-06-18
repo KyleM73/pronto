@@ -1,0 +1,23 @@
+Robot a1
+
+Frames { fr_base, imu_link, FL_foot, FR_foot, RL_foot, RR_foot }
+
+Transforms { fr_base <- FL_foot
+             fr_base <- FR_foot
+             fr_base <- RL_foot
+             fr_base <- RR_foot
+             imu_link <- FL_foot
+             imu_link <- FR_foot
+             imu_link <- RL_foot
+             imu_link <- RR_foot
+}
+
+Jacobians { base = fr_base target = FL_foot
+            base = fr_base target = FR_foot
+            base = fr_base target = RL_foot
+            base = fr_base target = RR_foot
+            base = imu_link target = FL_foot
+            base = imu_link target = FR_foot
+            base = imu_link target = RL_foot
+            base = imu_link target = RR_foot           
+}

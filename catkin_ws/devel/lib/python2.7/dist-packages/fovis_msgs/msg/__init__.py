@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/fovis_msgs/lib/python2.7/dist-packages/fovis_msgs/msg/__init__.py

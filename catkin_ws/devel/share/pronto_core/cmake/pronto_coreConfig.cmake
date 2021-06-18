@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_core/share/pronto_core/cmake/pronto_coreConfig.cmake

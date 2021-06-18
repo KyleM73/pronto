@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_msgs/share/roseus/ros/pronto_msgs/msg/BipedForceTorqueSensors.l

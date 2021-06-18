@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/laikago_description/share/laikago_description/cmake/laikago_descriptionConfig.cmake

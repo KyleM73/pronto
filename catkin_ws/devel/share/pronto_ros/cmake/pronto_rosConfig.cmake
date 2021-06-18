@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_ros/share/pronto_ros/cmake/pronto_rosConfig.cmake

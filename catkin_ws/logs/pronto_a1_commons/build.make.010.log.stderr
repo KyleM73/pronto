@@ -1,0 +1,40 @@
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosLF(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:15:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_LF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_FL_foot[m[K’?
+     return Utils::positionVector(ht_.[01;31m[Kfr_base_X_LF_FOOT[m[K(q));
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosRF(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:19:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_RF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_RL_foot[m[K’?
+     return Utils::positionVector(ht_.[01;31m[Kfr_base_X_RF_FOOT[m[K(q));
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_RL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosLH(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:23:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_LH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_FL_foot[m[K’?
+     return Utils::positionVector(ht_.[01;31m[Kfr_base_X_LH_FOOT[m[K(q));
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual iit::rbd::Vector3d pronto::a1::ForwardKinematics::getFootPosRH(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:27:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_RH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_RL_foot[m[K’?
+     return Utils::positionVector(ht_.[01;31m[Kfr_base_X_RH_FOOT[m[K(q));
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_RL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::Matrix3d pronto::a1::ForwardKinematics::getFootOrientation(const JointState&, const LegID&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:49:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_LF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_FL_foot[m[K’?
+         return Utils::rotationMx(ht_.[01;31m[Kfr_base_X_LF_FOOT[m[K);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:51:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_RF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_RL_foot[m[K’?
+         return Utils::rotationMx(ht_.[01;31m[Kfr_base_X_RF_FOOT[m[K);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_RL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:53:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_LH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_FL_foot[m[K’?
+         return Utils::rotationMx(ht_.[01;31m[Kfr_base_X_LH_FOOT[m[K);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/forward_kinematics.cpp:55:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::HomogeneousTransforms[m[K’ has no member named ‘[01m[Kfr_base_X_RH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_X_RL_foot[m[K’?
+         return Utils::rotationMx(ht_.[01;31m[Kfr_base_X_RH_FOOT[m[K);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kfr_base_X_RL_foot[m[K
+make[2]: *** [CMakeFiles/pronto_a1_commons.dir/src/forward_kinematics.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pronto_a1_commons.dir/all] Error 2
+make: *** [all] Error 2

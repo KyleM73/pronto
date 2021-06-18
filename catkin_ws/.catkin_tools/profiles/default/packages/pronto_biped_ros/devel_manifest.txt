@@ -1,0 +1,6 @@
+pronto/pronto_biped_ros
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_ros/cmake.lock /home/ooboontoo/catkin_ws/devel/./cmake.lock
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_ros/lib/libpronto_biped_ros.so /home/ooboontoo/catkin_ws/devel/lib/libpronto_biped_ros.so
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_ros/lib/pkgconfig/pronto_biped_ros.pc /home/ooboontoo/catkin_ws/devel/lib/pkgconfig/pronto_biped_ros.pc
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_ros/share/pronto_biped_ros/cmake/pronto_biped_rosConfig-version.cmake /home/ooboontoo/catkin_ws/devel/share/pronto_biped_ros/cmake/pronto_biped_rosConfig-version.cmake
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_ros/share/pronto_biped_ros/cmake/pronto_biped_rosConfig.cmake /home/ooboontoo/catkin_ws/devel/share/pronto_biped_ros/cmake/pronto_biped_rosConfig.cmake

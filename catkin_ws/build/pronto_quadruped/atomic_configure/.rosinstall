@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped/setup.sh

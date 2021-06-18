@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/a1_robcogen/share/a1_robcogen/cmake/a1_robcogenConfig.cmake

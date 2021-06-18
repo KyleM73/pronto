@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped/share/pronto_quadruped/cmake/pronto_quadrupedConfig.cmake

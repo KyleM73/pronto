@@ -1,0 +1,18 @@
+In file included from [01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/src/StanceEstimator.cpp:25:0[m[K:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/include/pronto_quadruped/StanceEstimator.hpp:[m[K In constructor ‘[01m[Kpronto::quadruped::StanceEstimator::StanceEstimator(pronto::quadruped::FeetContactForces&, const pronto::quadruped::StanceEstimator::Mode&, const std::vector<double>&, const double&, const double&, const double&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/include/pronto_quadruped/StanceEstimator.hpp:191:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpronto::quadruped::StanceEstimator::mode_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     Mode mode_ = Mode::[01;35m[KTHRESHOLD[m[K;
+                        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/include/pronto_quadruped/StanceEstimator.hpp:176:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble pronto::quadruped::StanceEstimator::force_threshold_[m[K’ [[01;35m[K-Wreorder[m[K]
+     double [01;35m[Kforce_threshold_[m[K;
+            [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/src/StanceEstimator.cpp:51:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KStanceEstimator[m[K::StanceEstimator(FeetContactForces& feet_contact_forces,
+ [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/src/StanceEstimator.cpp:[m[K In member function ‘[01m[Kvoid pronto::quadruped::StanceEstimator::setParams(const std::vector<double>&, const double&, const double&, const double&, const uint64_t&, const uint64_t&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/src/StanceEstimator.cpp:110:26:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for(int i = 0; [01;35m[Ki < beta.size()[m[K; i++) {
+                        [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped/src/StanceEstimator.cpp:112:18:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             if([01;35m[Ki == beta.size() - 1[m[K) {
+                [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K

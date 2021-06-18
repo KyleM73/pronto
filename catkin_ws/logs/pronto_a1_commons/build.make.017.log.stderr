@@ -1,0 +1,25 @@
+In file included from [01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_contact_forces.cpp:1:0[m[K:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:93:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionTransforms[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[KMotionTransforms[m[K motion_transf_;
+                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:94:24:[m[K [01;31m[Kerror: [m[K‘[01m[KForceTransforms[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[KForceTransforms[m[K force_transf_;
+                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:[m[K In constructor ‘[01m[Kpronto::a1::FeetContactForces::FeetContactForces()[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:22:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_transf_[m[K’ was not declared in this scope
+         inverse_dynamics_(inertia_prop_, [01;31m[Kmotion_transf_[m[K),
+                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:22:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMotionTransforms[m[K’
+         inverse_dynamics_(inertia_prop_, [01;36m[Kmotion_transf_[m[K),
+                                          [01;36m[K^~~~~~~~~~~~~~[m[K
+                                          [32m[KMotionTransforms[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:23:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_transf_[m[K’ was not declared in this scope
+         jsim_(inertia_prop_, [01;31m[Kforce_transf_[m[K)
+                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:23:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktowctrans_l[m[K’
+         jsim_(inertia_prop_, [01;36m[Kforce_transf_[m[K)
+                              [01;36m[K^~~~~~~~~~~~~[m[K
+                              [32m[Ktowctrans_l[m[K
+make[2]: *** [CMakeFiles/pronto_a1_commons.dir/src/feet_contact_forces.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pronto_a1_commons.dir/all] Error 2
+make: *** [all] Error 2

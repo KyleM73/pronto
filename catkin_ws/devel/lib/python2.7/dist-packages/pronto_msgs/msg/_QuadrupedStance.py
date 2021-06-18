@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_msgs/lib/python2.7/dist-packages/pronto_msgs/msg/_QuadrupedStance.py

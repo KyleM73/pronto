@@ -1,0 +1,4 @@
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/libforward_kinematics.so
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/pkgconfig/forward_kinematics.pc
+Symlinking /home/ooboontoo/catkin_ws/devel/share/forward_kinematics/cmake/forward_kinematicsConfig.cmake
+Symlinking /home/ooboontoo/catkin_ws/devel/share/forward_kinematics/cmake/forward_kinematicsConfig-version.cmake

@@ -1,0 +1,21 @@
+[33m[1mCMake Warning[0m at /home/ooboontoo/catkin_ws/src/realsense-ros/realsense2_camera/CMakeLists.txt:44 (find_package):
+  Could not find a configuration file for package "realsense2" that is
+  compatible with requested version "2.45.0".
+
+  The following configuration files were considered but not accepted:
+
+    /opt/ros/melodic/lib/cmake/realsense2/realsense2Config.cmake, version: 2.44.0
+
+
+
+[31m[1mCMake Error[0m at /home/ooboontoo/catkin_ws/src/realsense-ros/realsense2_camera/CMakeLists.txt:48 (message):
+
+
+
+
+   Intel RealSense SDK 2.0 is missing, please install it from https://github.com/IntelRealSense/librealsense/releases
+
+
+
+
+

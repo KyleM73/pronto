@@ -1,0 +1,435 @@
+Robot a1
+{
+
+RobotBase base floating {
+    inertia_properties {
+        mass = 4.714
+        CoM = (0.012728, 0.002186, 0.000515)
+        Ix = 0.016964
+        Iy = 0.057444
+        Iz = 0.0656
+        Ixy= 0.000047
+        Ixz= -0.000567
+        Iyz= -0.000020
+    }
+    children {
+        FR_hip via FR_hip_joint
+        FL_hip via FL_hip_joint
+        RR_hip via RR_hip_joint
+        RL_hip via RL_hip_joint
+    }
+    frames {
+        trunk {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (0.0, 0.0, 0.0)
+        }
+        imu_link {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (0.0, 0.0, 0.0)
+        }
+    }
+}
+
+
+link FR_hip {
+    id = 1
+    inertia_properties {
+        mass = 0.696
+        CoM = (-0.000031, -0.000635, -0.003311)
+        Ix = 0.000561
+        Iy = 0.000815
+        Iz = 0.00047
+        Ixy= 0.0
+        Ixz= 0.000009
+        Iyz= -0.000008
+    }
+    children {
+        FR_thigh via FR_thigh_joint
+    }
+    frames {
+        FR_thigh_shoulder {
+            translation = (0.0, -0.081, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+        urdf_FR_hip {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link FR_thigh {
+    id = 2
+    inertia_properties {
+        mass = 1.013
+        CoM = (0.027326, 0.003237, 0.022327)
+        Ix = 0.001883
+        Iy = 0.00679
+        Iz = 0.005906
+        Ixy= 0.000094
+        Ixz= 0.000596
+        Iyz= 0.000068
+    }
+    children {
+        FR_calf via FR_calf_joint
+    }
+    frames {
+        urdf_FR_thigh {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link FR_calf {
+    id = 3
+    inertia_properties {
+        mass = 0.226
+        CoM = (0.131975, -0.004727, 0.0)
+        Ix = 0.000049
+        Iy = 0.007322
+        Iz = 0.007345
+        Ixy= -0.000115
+        Ixz= 0.0
+        Iyz= 0.0
+    }
+    children {
+    }
+    frames {
+        FR_foot {
+            translation = (0.2, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+        urdf_FR_calf {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link FL_hip {
+    id = 4
+    inertia_properties {
+        mass = 0.696
+        CoM = (-0.000031, 0.000635, -0.003311)
+        Ix = 0.000561
+        Iy = 0.000815
+        Iz = 0.00047
+        Ixy= 0.0
+        Ixz= -0.000009
+        Iyz= 0.000008
+    }
+    children {
+        FL_thigh via FL_thigh_joint
+    }
+    frames {
+        FL_thigh_shoulder {
+            translation = (0.0, 0.081, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+        urdf_FL_hip {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link FL_thigh {
+    id = 5
+    inertia_properties {
+        mass = 1.013
+        CoM = (0.027326, 0.003237, -0.022327)
+        Ix = 0.001883
+        Iy = 0.00679
+        Iz = 0.005906
+        Ixy= 0.000085
+        Ixz= -0.000596
+        Iyz= -0.000068
+    }
+    children {
+        FL_calf via FL_calf_joint
+    }
+    frames {
+        urdf_FL_thigh {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link FL_calf {
+    id = 6
+    inertia_properties {
+        mass = 0.226
+        CoM = (0.131975, -0.004727, 0.0)
+        Ix = 0.000049
+        Iy = 0.007322
+        Iz = 0.007345
+        Ixy= -0.000115
+        Ixz= 0.0
+        Iyz= 0.0
+    }
+    children {
+    }
+    frames {
+        FL_foot {
+            translation = (0.2, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+        urdf_FL_calf {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link RR_hip {
+    id = 7
+    inertia_properties {
+        mass = 0.696
+        CoM = (-0.000031, -0.000635, 0.003311)
+        Ix = 0.000561
+        Iy = 0.000815
+        Iz = 0.00047
+        Ixy= 0.0
+        Ixz= -0.000009
+        Iyz= 0.000008
+    }
+    children {
+        RR_thigh via RR_thigh_joint
+    }
+    frames {
+        RR_thigh_shoulder {
+            translation = (0.0, -0.081, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+        urdf_RR_hip {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link RR_thigh {
+    id = 8
+    inertia_properties {
+        mass = 1.013
+        CoM = (0.027326, 0.003237, 0.022327)
+        Ix = 0.001883
+        Iy = 0.00679
+        Iz = 0.005906
+        Ixy= 0.000094
+        Ixz= 0.000596
+        Iyz= 0.000068
+    }
+    children {
+        RR_calf via RR_calf_joint
+    }
+    frames {
+        urdf_RR_thigh {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link RR_calf {
+    id = 9
+    inertia_properties {
+        mass = 0.226
+        CoM = (0.131975, -0.004727, 0.0)
+        Ix = 0.000049
+        Iy = 0.007322
+        Iz = 0.007345
+        Ixy= -0.000115
+        Ixz= 0.0
+        Iyz= 0.0
+    }
+    children {
+    }
+    frames {
+        RR_foot {
+            translation = (0.2, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+        urdf_RR_calf {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link RL_hip {
+    id = 10
+    inertia_properties {
+        mass = 0.696
+        CoM = (-0.000031, 0.000635, 0.003311)
+        Ix = 0.000561
+        Iy = 0.000815
+        Iz = 0.00047
+        Ixy= 0.0
+        Ixz= 0.000009
+        Iyz= -0.000008
+    }
+    children {
+        RL_thigh via RL_thigh_joint
+    }
+    frames {
+        RL_thigh_shoulder {
+            translation = (0.0, 0.081, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+        urdf_RL_hip {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (0.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link RL_thigh {
+    id = 11
+    inertia_properties {
+        mass = 1.013
+        CoM = (0.027326, 0.003237, -0.022327)
+        Ix = 0.001883
+        Iy = 0.00679
+        Iz = 0.005906
+        Ixy= 0.000085
+        Ixz= -0.000596
+        Iyz= -0.000068
+    }
+    children {
+        RL_calf via RL_calf_joint
+    }
+    frames {
+        urdf_RL_thigh {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+link RL_calf {
+    id = 12
+    inertia_properties {
+        mass = 0.226
+        CoM = (0.131975, -0.004727, 0.0)
+        Ix = 0.000049
+        Iy = 0.007322
+        Iz = 0.007345
+        Ixy= -0.000115
+        Ixz= 0.0
+        Iyz= 0.0
+    }
+    children {
+    }
+    frames {
+        RL_foot {
+            translation = (0.2, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+        urdf_RL_calf {
+            translation = (0.0, 0.0, 0.0)
+            rotation    = (PI/2.0, -PI/2.0, 0.0)
+        }
+    }
+}
+
+
+r_joint FR_hip_joint {
+    ref_frame {
+        translation = (0.1805, -0.047, 0.0)
+        rotation    = (0.0, PI/2.0, 0.0)
+    }
+}
+
+r_joint FR_thigh_joint {
+    ref_frame {
+        translation = (0.0, -0.0838, 0.0)
+        rotation    = (-PI/2.0, 0.0, 0.0)
+    }
+}
+
+r_joint FR_calf_joint {
+    ref_frame {
+        translation = (0.2, 0.0, 0.0)
+        rotation    = (0.0, 0.0, 0.0)
+    }
+}
+
+r_joint FL_hip_joint {
+    ref_frame {
+        translation = (0.1805, 0.047, 0.0)
+        rotation    = (0.0, PI/2.0, 0.0)
+    }
+}
+
+r_joint FL_thigh_joint {
+    ref_frame {
+        translation = (0.0, 0.0838, 0.0)
+        rotation    = (-PI/2.0, 0.0, 0.0)
+    }
+}
+
+r_joint FL_calf_joint {
+    ref_frame {
+        translation = (0.2, 0.0, 0.0)
+        rotation    = (0.0, 0.0, 0.0)
+    }
+}
+
+r_joint RR_hip_joint {
+    ref_frame {
+        translation = (-0.1805, -0.047, 0.0)
+        rotation    = (0.0, PI/2.0, 0.0)
+    }
+}
+
+r_joint RR_thigh_joint {
+    ref_frame {
+        translation = (0.0, -0.0838, 0.0)
+        rotation    = (-PI/2.0, 0.0, 0.0)
+    }
+}
+
+r_joint RR_calf_joint {
+    ref_frame {
+        translation = (0.2, 0.0, 0.0)
+        rotation    = (0.0, 0.0, 0.0)
+    }
+}
+
+r_joint RL_hip_joint {
+    ref_frame {
+        translation = (-0.1805, 0.047, 0.0)
+        rotation    = (0.0, PI/2.0, 0.0)
+    }
+}
+
+r_joint RL_thigh_joint {
+    ref_frame {
+        translation = (0.0, 0.0838, 0.0)
+        rotation    = (-PI/2.0, 0.0, 0.0)
+    }
+}
+
+r_joint RL_calf_joint {
+    ref_frame {
+        translation = (0.2, 0.0, 0.0)
+        rotation    = (0.0, 0.0, 0.0)
+    }
+}
+
+}
+

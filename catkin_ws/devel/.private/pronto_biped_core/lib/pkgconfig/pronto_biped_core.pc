@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_core
+
+Name: pronto_biped_core
+Description: Description of pronto_biped_core
+Version: 0.2.0
+Cflags: -I/home/ooboontoo/catkin_ws/src/pronto/pronto_biped_core/include
+Libs: -L${prefix}/lib -lpronto_biped_legodo
+Requires: pronto_utils pronto_core

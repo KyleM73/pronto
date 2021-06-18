@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/fovis_msgs/share/gennodejs/ros/fovis_msgs/_index.js

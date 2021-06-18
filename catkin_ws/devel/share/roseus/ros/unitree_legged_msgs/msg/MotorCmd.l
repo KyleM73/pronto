@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/unitree_legged_msgs/share/roseus/ros/unitree_legged_msgs/msg/MotorCmd.l

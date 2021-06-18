@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/aliengo_description/share/aliengo_description/cmake/aliengo_descriptionConfig.cmake

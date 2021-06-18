@@ -1,0 +1,14 @@
+[31m[1mCMake Error[0m at /home/ooboontoo/catkin_ws/devel/share/pronto_quadruped_commons/cmake/pronto_quadruped_commonsConfig.cmake:113 (message):
+  Project 'pronto_quadruped_commons' specifies
+  '/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped_commons/include' as
+  an include dir, which is not found.  It does neither exist as an absolute
+  directory nor in
+  '/home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped_commons//home/ooboontoo/catkin_ws/src/pronto/pronto_quadruped_commons/include'.
+  Report the problem to the maintainer 'Marco Camurri
+  <mcamurri@@robots.ox.ac.uk>' and request to fix the problem.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:6 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

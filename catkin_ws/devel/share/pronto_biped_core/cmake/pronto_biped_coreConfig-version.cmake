@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_core/share/pronto_biped_core/cmake/pronto_biped_coreConfig-version.cmake

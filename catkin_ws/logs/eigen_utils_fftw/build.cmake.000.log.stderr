@@ -1,0 +1,6 @@
+[33m[1mCMake Warning[0m at /home/ooboontoo/catkin_ws/src/pronto_common_utils/eigen_utils_fftw/CMakeLists.txt:22 (message):
+  fftw not found.  Not building eigen_utils_fftw
+
+  You can install it by running 'sudo apt-get install libfftw3-dev'
+
+

@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by
+  "pronto_quadruped_commons" with any of the following names:
+
+    pronto_quadruped_commonsConfig.cmake
+    pronto_quadruped_commons-config.cmake
+
+  Add the installation prefix of "pronto_quadruped_commons" to
+  CMAKE_PREFIX_PATH or set "pronto_quadruped_commons_DIR" to a directory
+  containing one of the above files.  If "pronto_quadruped_commons" provides
+  a separate development package or SDK, be sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:6 (find_package)
+
+

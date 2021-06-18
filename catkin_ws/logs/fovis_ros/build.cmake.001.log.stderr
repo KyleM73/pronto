@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "eigen_utils" with
+  any of the following names:
+
+    eigen_utilsConfig.cmake
+    eigen_utils-config.cmake
+
+  Add the installation prefix of "eigen_utils" to CMAKE_PREFIX_PATH or set
+  "eigen_utils_DIR" to a directory containing one of the above files.  If
+  "eigen_utils" provides a separate development package or SDK, be sure it
+  has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:6 (find_package)
+
+

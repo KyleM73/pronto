@@ -1,0 +1,89 @@
+In file included from [01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_contact_forces.cpp:1:0[m[K:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:92:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdyn[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[Kdyn[m[K::InertiaProperties inertia_prop_;
+                        [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:93:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionTransforms[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[KMotionTransforms[m[K motion_transf_;
+                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:94:24:[m[K [01;31m[Kerror: [m[K‘[01m[KForceTransforms[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[KForceTransforms[m[K force_transf_;
+                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:95:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdyn[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[Kdyn[m[K::InverseDynamics inverse_dynamics_;
+                        [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:96:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdyn[m[K’ in namespace ‘[01m[Kpronto::quadruped[m[K’ does not name a type
+     pronto::quadruped::[01;31m[Kdyn[m[K::JSIM jsim_;
+                        [01;31m[K^~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:[m[K In constructor ‘[01m[Kpronto::a1::FeetContactForces::FeetContactForces()[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:22:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kpronto::a1::FeetContactForces[m[K’ does not have any field named ‘[01m[Kinverse_dynamics_[m[K’
+         [01;31m[Kinverse_dynamics_[m[K(inertia_prop_, motion_transf_),
+         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kinertia_prop_[m[K’ was not declared in this scope
+         inverse_dynamics_([01;31m[Kinertia_prop_[m[K, motion_transf_),
+                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:22:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_transf_[m[K’ was not declared in this scope
+         inverse_dynamics_(inertia_prop_, [01;31m[Kmotion_transf_[m[K),
+                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:22:42:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KMotionTransforms[m[K’
+         inverse_dynamics_(inertia_prop_, [01;36m[Kmotion_transf_[m[K),
+                                          [01;36m[K^~~~~~~~~~~~~~[m[K
+                                          [32m[KMotionTransforms[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:23:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kpronto::a1::FeetContactForces[m[K’ does not have any field named ‘[01m[Kjsim_[m[K’
+         [01;31m[Kjsim_[m[K(inertia_prop_, force_transf_)
+         [01;31m[K^~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:23:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_transf_[m[K’ was not declared in this scope
+         jsim_(inertia_prop_, [01;31m[Kforce_transf_[m[K)
+                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/include/pronto_a1_commons/feet_contact_forces.hpp:23:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktowctrans_l[m[K’
+         jsim_(inertia_prop_, [01;36m[Kforce_transf_[m[K)
+                              [01;36m[K^~~~~~~~~~~~~[m[K
+                              [32m[Ktowctrans_l[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_contact_forces.cpp:[m[K In member function ‘[01m[Kvirtual bool pronto::a1::FeetContactForces::getFootGRF(const JointState&, const JointState&, const JointState&, const Quaterniond&, const LegID&, pronto::a1::FeetContactForces::Vector3d&, const JointState&, const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_contact_forces.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjsim_[m[K’ was not declared in this scope
+     [01;31m[Kjsim_[m[K(q);
+     [01;31m[K^~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_contact_forces.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinverse_dynamics_[m[K’ was not declared in this scope
+     [01;31m[Kinverse_dynamics_[m[K.id_fully_actuated(h_base,
+     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::FootJac pronto::a1::FeetJacobians::getFootJacobianLF(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:29:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_LF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_FL_foot[m[K’?
+     return jacs_.[01;31m[Kfr_base_J_LF_FOOT[m[K(q).block<3,3>(LX,0);
+                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                  [32m[Kfr_base_J_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::FootJac pronto::a1::FeetJacobians::getFootJacobianRF(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:32:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_RF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_RL_foot[m[K’?
+     return jacs_.[01;31m[Kfr_base_J_RF_FOOT[m[K(q).block<3,3>(LX,0);
+                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                  [32m[Kfr_base_J_RL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::FootJac pronto::a1::FeetJacobians::getFootJacobianLH(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:35:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_LH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_FL_foot[m[K’?
+     return jacs_.[01;31m[Kfr_base_J_LH_FOOT[m[K(q).block<3,3>(LX,0);
+                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                  [32m[Kfr_base_J_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::FootJac pronto::a1::FeetJacobians::getFootJacobianRH(const JointState&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:38:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_RH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_RL_foot[m[K’?
+     return jacs_.[01;31m[Kfr_base_J_RH_FOOT[m[K(q).block<3,3>(LX,0);
+                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                  [32m[Kfr_base_J_RL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:[m[K In member function ‘[01m[Kvirtual pronto::quadruped::FootJac pronto::a1::FeetJacobians::getFootJacobianAngular(const JointState&, const LegID&)[m[K’:
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:44:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_LF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_FL_foot[m[K’?
+       return jacs_.[01;31m[Kfr_base_J_LF_FOOT[m[K(q).block<3,3>(AX,0);
+                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                    [32m[Kfr_base_J_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:46:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_RF_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_RL_foot[m[K’?
+       return jacs_.[01;31m[Kfr_base_J_RF_FOOT[m[K(q).block<3,3>(AX,0);
+                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                    [32m[Kfr_base_J_RL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:48:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_LH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_FL_foot[m[K’?
+       return jacs_.[01;31m[Kfr_base_J_LH_FOOT[m[K(q).block<3,3>(AX,0);
+                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                    [32m[Kfr_base_J_FL_foot[m[K
+[01m[K/home/ooboontoo/catkin_ws/src/pronto_a1_demo/pronto_a1_commons/src/feet_jacobians.cpp:50:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pronto::a1::Jacobians[m[K’ has no member named ‘[01m[Kfr_base_J_RH_FOOT[m[K’; did you mean ‘[01m[Kfr_base_J_RL_foot[m[K’?
+       return jacs_.[01;31m[Kfr_base_J_RH_FOOT[m[K(q).block<3,3>(AX,0);
+                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                    [32m[Kfr_base_J_RL_foot[m[K
+make[2]: *** [CMakeFiles/pronto_a1_commons.dir/src/feet_jacobians.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/pronto_a1_commons.dir/src/feet_contact_forces.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pronto_a1_commons.dir/all] Error 2
+make: *** [all] Error 2

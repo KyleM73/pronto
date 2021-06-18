@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/devel/.private/stl_utils
+
+Name: stl_utils
+Description: Description of stl_utils
+Version: 1.0.0
+Cflags: -I/home/ooboontoo/catkin_ws/src/pronto_common_utils/stl_utils/include
+Libs: -L${prefix}/lib 
+Requires: 

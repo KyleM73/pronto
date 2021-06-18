@@ -1,0 +1,26 @@
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_IndexedMeasurement
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_FilterState
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_ControllerFootContact
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_VisualOdometryUpdate
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_LidarOdometryUpdate
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_QuadrupedForceTorqueSensors
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_QuadrupedStance
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_VelocityWithSigmaBounds
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_BipedForceTorqueSensors
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _pronto_msgs_generate_messages_check_deps_GPSData
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 19%] Built target pronto_msgs_generate_messages_cpp
+[ 40%] Built target pronto_msgs_generate_messages_py
+[ 78%] Built target pronto_msgs_generate_messages_eus
+[ 80%] Built target pronto_msgs_generate_messages_lisp
+[100%] Built target pronto_msgs_generate_messages_nodejs
+[100%] Built target pronto_msgs_generate_messages

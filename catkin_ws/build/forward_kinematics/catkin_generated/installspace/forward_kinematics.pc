@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/install
+
+Name: forward_kinematics
+Description: Description of forward_kinematics
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lforward_kinematics
+Requires: urdf

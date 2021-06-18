@@ -1,0 +1,4 @@
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/libfovis.so
+Symlinking /home/ooboontoo/catkin_ws/devel/lib/pkgconfig/fovis.pc
+Symlinking /home/ooboontoo/catkin_ws/devel/share/fovis/cmake/fovisConfig.cmake
+Symlinking /home/ooboontoo/catkin_ws/devel/share/fovis/cmake/fovisConfig-version.cmake

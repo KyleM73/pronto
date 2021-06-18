@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/unitree_controller/share/unitree_controller/cmake/unitree_controllerConfig.cmake

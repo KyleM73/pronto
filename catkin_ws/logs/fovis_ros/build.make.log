@@ -1,0 +1,10 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/fovision.dir/src/voestimator/voestimator.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/fovision.dir/src/fovision/fovision.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/fovision.dir/src/fovision_apps/fovision_fusion_core.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library /home/ooboontoo/catkin_ws/devel/.private/fovis_ros/lib/libfovision.so[0m
+[ 66%] Built target fovision
+[35m[1mScanning dependencies of target simple_fusion[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/simple_fusion.dir/src/fovision_apps/fovision_fusion_ros.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/simple_fusion.dir/src/fovision_apps/stereo_odom_ros.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ooboontoo/catkin_ws/devel/.private/fovis_ros/lib/fovis_ros/simple_fusion[0m
+[100%] Built target simple_fusion

@@ -1,0 +1,5 @@
+pronto/pronto_quadruped_commons
+/home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped_commons/cmake.lock /home/ooboontoo/catkin_ws/devel/./cmake.lock
+/home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped_commons/lib/pkgconfig/pronto_quadruped_commons.pc /home/ooboontoo/catkin_ws/devel/lib/pkgconfig/pronto_quadruped_commons.pc
+/home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped_commons/share/pronto_quadruped_commons/cmake/pronto_quadruped_commonsConfig.cmake /home/ooboontoo/catkin_ws/devel/share/pronto_quadruped_commons/cmake/pronto_quadruped_commonsConfig.cmake
+/home/ooboontoo/catkin_ws/devel/.private/pronto_quadruped_commons/share/pronto_quadruped_commons/cmake/pronto_quadruped_commonsConfig-version.cmake /home/ooboontoo/catkin_ws/devel/share/pronto_quadruped_commons/cmake/pronto_quadruped_commonsConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/quadruped_robcogen/share/quadruped_robcogen/cmake/quadruped_robcogenConfig.cmake

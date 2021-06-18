@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target pronto_anymal_b_commons[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/pronto_anymal_b_commons.dir/src/forward_kinematics.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pronto_anymal_b_commons.dir/src/feet_contact_forces.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/pronto_anymal_b_commons.dir/src/feet_jacobians.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ooboontoo/catkin_ws/devel/.private/pronto_anymal_b_commons/lib/libpronto_anymal_b_commons.so[0m
+[100%] Built target pronto_anymal_b_commons

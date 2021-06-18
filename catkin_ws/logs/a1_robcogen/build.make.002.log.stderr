@@ -1,0 +1,40 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/home/ooboontoo/catkin_ws/src/quadruped_robcogen/external/robcogen/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Warning, the name of the desiredJacobians model (a1) does not match the name of the given robot (a1_description).
+Exception in thread "main" java.lang.IllegalArgumentException: loops not allowed
+	at org.jgrapht.graph.AbstractBaseGraph.addEdge(AbstractBaseGraph.java:248)
+	at iit.dsl.motiondsl.generator.ConnectedFramesInspector.createGraph(Unknown Source)
+	at iit.dsl.motiondsl.generator.ConnectedFramesInspector.<init>(Unknown Source)
+	at iit.dsl.motiondsl.generator.TransformsUtilities.<init>(Unknown Source)
+	at iit.dsl.motiondsl.generator.CoordTransDSL_generator.generateDSLDoc(Unknown Source)
+	at iit.dsl.generator.common.GeometryModels.getTransformsDoc(Unknown Source)
+	at iit.robcogen.KinDSLWrapper.load(Unknown Source)
+	at iit.robcogen.Generator.main(Unknown Source)
+cp: cannot stat '/tmp/gen/cpp/*.h': No such file or directory
+cp: cannot stat '/tmp/gen/cpp/*.cpp': No such file or directory
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/home/ooboontoo/catkin_ws/src/quadruped_robcogen/external/robcogen/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Warning, the name of the desiredJacobians model (a1) does not match the name of the given robot (a1_description).
+Exception in thread "main" java.lang.IllegalArgumentException: loops not allowed
+	at org.jgrapht.graph.AbstractBaseGraph.addEdge(AbstractBaseGraph.java:248)
+	at iit.dsl.motiondsl.generator.ConnectedFramesInspector.createGraph(Unknown Source)
+	at iit.dsl.motiondsl.generator.ConnectedFramesInspector.<init>(Unknown Source)
+	at iit.dsl.motiondsl.generator.TransformsUtilities.<init>(Unknown Source)
+	at iit.dsl.motiondsl.generator.CoordTransDSL_generator.generateDSLDoc(Unknown Source)
+	at iit.dsl.generator.common.GeometryModels.getTransformsDoc(Unknown Source)
+	at iit.robcogen.KinDSLWrapper.load(Unknown Source)
+	at iit.robcogen.Generator.main(Unknown Source)
+cp: cannot stat '/tmp/gen/cpp/*.h': No such file or directory
+cp: cannot stat '/tmp/gen/cpp/*.cpp': No such file or directory
+[01m[Kc++:[m[K [01;31m[Kerror: [m[K/home/ooboontoo/catkin_ws/src/a1_robcogen/src/transforms.cpp: No such file or directory
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+make[2]: *** [CMakeFiles/a1_robcogen.dir/src/transforms.cpp.o] Error 1
+make[1]: *** [CMakeFiles/a1_robcogen.dir/all] Error 2
+make: *** [all] Error 2

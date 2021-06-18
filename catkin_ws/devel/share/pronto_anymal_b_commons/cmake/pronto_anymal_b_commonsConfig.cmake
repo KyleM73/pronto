@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_anymal_b_commons/share/pronto_anymal_b_commons/cmake/pronto_anymal_b_commonsConfig.cmake

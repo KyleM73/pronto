@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/install
+
+Name: pronto_utils
+Description: Description of pronto_utils
+Version: 0.2.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lpronto_utils -lkalman_filter -lbacklash_filter
+Requires: 

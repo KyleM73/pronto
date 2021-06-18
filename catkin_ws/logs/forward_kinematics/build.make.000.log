@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target forward_kinematics[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/forward_kinematics.dir/src/treefksolverposfull_recursive.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ooboontoo/catkin_ws/devel/.private/forward_kinematics/lib/libforward_kinematics.so[0m
+[100%] Built target forward_kinematics

@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/ooboontoo/catkin_ws/devel/.private/pronto_core/lib;/opt/ros/melodic/lib")

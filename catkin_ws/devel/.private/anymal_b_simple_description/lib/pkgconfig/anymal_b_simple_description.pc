@@ -1,0 +1,8 @@
+prefix=/home/ooboontoo/catkin_ws/devel/.private/anymal_b_simple_description
+
+Name: anymal_b_simple_description
+Description: Description of anymal_b_simple_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/pronto_biped_ros/share/pronto_biped_ros/cmake/pronto_biped_rosConfig-version.cmake

@@ -1,0 +1,7 @@
+[01m[K/home/ooboontoo/catkin_ws/src/unitree_ros/unitree_legged_real/src/exe/walk_mode.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory
+ #include [01;31m[K"unitree_legged_sdk/unitree_legged_sdk.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/walk_lcm.dir/src/exe/walk_mode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/walk_lcm.dir/all] Error 2
+make: *** [all] Error 2

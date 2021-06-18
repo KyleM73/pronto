@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/fovis_msgs/share/roseus/ros/fovis_msgs/msg/VisualOdometryUpdate.l

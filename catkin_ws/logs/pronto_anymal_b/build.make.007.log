@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pronto_anymal_b_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pronto_anymal_b_node.dir/src/pronto_anymal_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ooboontoo/catkin_ws/devel/.private/pronto_anymal_b/lib/pronto_anymal_b/pronto_anymal_b_node[0m
+[100%] Built target pronto_anymal_b_node

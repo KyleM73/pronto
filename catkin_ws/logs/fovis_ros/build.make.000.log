@@ -1,0 +1,28 @@
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+as: BFD (GNU Binutils for Ubuntu) 2.30 assertion fail ../../bfd/elf.c:3094
+/tmp/ccfC8wNp.s: Fatal error: can't close CMakeFiles/fovision.dir/src/voestimator/voestimator.cpp.o: No space left on device
+CMakeFiles/fovision.dir/build.make:110: recipe for target 'CMakeFiles/fovision.dir/src/voestimator/voestimator.cpp.o' failed
+make[2]: *** [CMakeFiles/fovision.dir/src/voestimator/voestimator.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/fovision.dir/all' failed
+make[1]: *** [CMakeFiles/fovision.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

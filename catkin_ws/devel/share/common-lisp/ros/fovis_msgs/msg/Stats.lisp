@@ -1,0 +1,1 @@
+/home/ooboontoo/catkin_ws/devel/.private/fovis_msgs/share/common-lisp/ros/fovis_msgs/msg/Stats.lisp

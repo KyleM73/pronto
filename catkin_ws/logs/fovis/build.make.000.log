@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target fovis[0m
+[  4%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/depth_image.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/fast.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/feature_matcher.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/frame.cpp.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/gauss_pyramid.c.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/grid_filter.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/initial_homography_estimation.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/intensity_descriptor.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/internal_utils.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/motion_estimation.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/normalize_image.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/primesense_depth.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/pyramid_level.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/rectification.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/refine_feature_match.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/refine_motion_estimate.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/stereo_calibration.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/stereo_depth.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/stereo_disparity.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/stereo_frame.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/stereo_rectify.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/tictoc.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/fovis.dir/home/ooboontoo/catkin_ws/src/fovis/libfovis/libfovis/visual_odometry.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ooboontoo/catkin_ws/devel/.private/fovis/lib/libfovis.so[0m
+[100%] Built target fovis
